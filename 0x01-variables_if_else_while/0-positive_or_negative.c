@@ -18,11 +18,11 @@ int main (void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
-		print f("%d is zero\n", n);
+		printf("%d is zero\n", n);
 	else if (n < 0)
-		print f("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	else
-		print f("%d is positive\n", n);
+		printf("%d is positive\n", n);
 
 
 	return (0);
