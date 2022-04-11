@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Deacription: prints the letters in lower then uppercase
+ * Description: prints the letters in lower then uppercase
  *
  * Return: Always 0.
  */
