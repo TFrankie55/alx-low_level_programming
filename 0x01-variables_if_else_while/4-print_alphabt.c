@@ -10,17 +10,16 @@
 
 int main(void)
 {
-	int i = 97;
+	char c;
 
-	while (i < 123)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if i(i !=101 && i !=113)
+		if (c != 'e' && c != 'q')
 		{
-			putchar (i);
+			putchar (c);
 		}
-		i++;
 	}
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }
