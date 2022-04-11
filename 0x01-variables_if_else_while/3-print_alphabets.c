@@ -5,7 +5,7 @@
  *
  * Deacription: prints the letters in lower then uppercase
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int main(void)
