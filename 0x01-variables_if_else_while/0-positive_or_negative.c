@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
- * main - determine if number is positive or negative
+ * main - Entry point
  *
  * Description: program will assign a random number to the variable n each time
  * it is executed
@@ -15,7 +15,6 @@
 int main(void)
 {
 	int n;
-
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
