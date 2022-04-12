@@ -12,7 +12,7 @@ int alphabet;
 int count;
 
 
-count = 0
+count = 0;
 while (count < 10)
 {
 for (alphabet = 'a' ; alphabeet <= 'z' ; alphabet++)
