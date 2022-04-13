@@ -3,10 +3,11 @@
 
 /**
  * _abs -  computes the absolute value of an integer
- * @n: the int to print
+ * @n: The int to print
+ *
  * Return: Always 0 (Success)
  */
-int _abs(int)
+int _abs(int n)
 {
 
 if (n < 0)
