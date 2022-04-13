@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - Prints the sum of the even-valued terms
+/** 
+ * main - Prints the sum of the even-valued terms
  *
  * Return: Always 0 (Success)
  */
@@ -17,7 +18,6 @@ tSum = tSum + y;
 sum = x + y;
 x = y;
 y = sum;
-
 
 }
 printf("%ld\n", tSum);
