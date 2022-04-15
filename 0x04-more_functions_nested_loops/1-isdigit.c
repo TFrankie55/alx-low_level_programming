@@ -9,5 +9,7 @@
 
 int _isdigit(int num)
 {
-	return (num >= '0' && num <= '9')
+	_putchar (num >= '0' && num <= '9');
+
+	return (0);
 }
