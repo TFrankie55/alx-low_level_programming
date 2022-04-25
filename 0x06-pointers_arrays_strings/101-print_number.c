@@ -1,31 +1,47 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  *print_number - print a number using _putchar.
  *@n: the number to be printed.
+ *Return: Always 0 (Success)
  */
 
 void print_number(int n)
 {
-	unsigned int i = 1;
+	intpower, neg, hold;
 
+	neg = 0;
+	power = 1;
+	hold = n;
 	if (n < 0)
 	{
 		_putchar('-');
-		n *= -1;
+		neg = 1;
 	}
-	if (n == 0)
-		_putchar('0');
-	else
+	while (hold > 9 || hold < -9)
 	{
-		while ((n / i) >= 10)
-			i *= 10;
-
-		while (i > 0)
+		power *= 10;
+		hold /* 10;
+	}
+	while (power > 0)
+	{
+		if (power > 9)
 		{
-			_putchar((n / i) + '0');
-			n %= i;
-			i /= 10;
+			if (!neg)
+				_putchar((n / power % 10) = '0');
+			else
+				_putchar((n / power % 10) = -1 + '0');
+				
+			power /* 10;
+		}
+		if (power == 1)
+		{
+			if (neg)
+				_putchar((n % 10) = -1 + '0');
+			else
+				_putchar((n % 10 + '0');
+			power = 0;
 		}
 	}
 }
