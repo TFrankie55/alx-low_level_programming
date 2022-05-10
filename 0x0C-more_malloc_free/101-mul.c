@@ -5,7 +5,7 @@
  * _atoi_digit - convert a char to integer.
  * @x: character to convert.
  * Return: integer
- **/
+ */
 
 int _atoi_digit(char x)
 {
