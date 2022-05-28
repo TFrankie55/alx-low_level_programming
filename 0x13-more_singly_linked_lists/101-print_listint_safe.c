@@ -26,7 +26,6 @@ size_t print_listint_safe(const listint_t *head)
 	}
 	if (node == NULL)
 	{
-		exit();
+		exit(98);
 	}
-	return (i);
 }
