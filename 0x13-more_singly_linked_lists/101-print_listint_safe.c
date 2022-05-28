@@ -2,21 +2,31 @@
 
 /**
  * print_listint_safe - main function
- * @head: pointer to head
+ * @head: linked list in front
  *
  * Return: i
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	unsigned int i = 0;
+	size_t i = 0;
+	const listint_t *temp, *node;
 
-	if (head == NULL)
-		exit(98);
-	while (head)
+	node = head;
+	while (node != NULL)
 	{
-		printf("[%p] %d", head, head->n);
+		printf("[%p] %d\n", (void *)node, node->n);
+		temp = node;
+		node = node->next;
 		i++;
-		head = head->next;
+		if (temp <= node)
+		{
+			printf("-> [%p] %d\n", (void *)node, node->n);
+			break;
+		}
+	}
+	if (head == NULL)
+	{
+		exit(98);
 	}
 	return (i);
 }
