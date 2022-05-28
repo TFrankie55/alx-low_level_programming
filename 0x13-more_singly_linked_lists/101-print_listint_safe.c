@@ -1,11 +1,10 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
- *print_listint_safe - prints a listint list
- *@head:pointer to head
- *Return:number of nodes in list
+ * print_listint_safe - main function
+ * @head: pointer to head
+ *
+ * Return: i
  */
 size_t print_listint_safe(const listint_t *head)
 {
