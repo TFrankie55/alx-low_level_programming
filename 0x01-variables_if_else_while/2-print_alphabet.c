@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prrints the lettters of the alphabet
+ * Description: prints the letters of the alphabet
  *
  * Return: Always 0 (Success)
  */
