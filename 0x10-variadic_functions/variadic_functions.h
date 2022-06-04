@@ -18,5 +18,5 @@ typedef struct typ
 {
 	char *c;
 	void (*tp)(va_list var);
-} typ_t;
+}typ_t;
 #endif
